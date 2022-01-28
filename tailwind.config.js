@@ -6,5 +6,23 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+
+  // config daisyui
+  daisyui: {
+    styled: true,
+    themes: [
+      'light',
+      'halloween',
+      'emerald',
+      'forest',
+      'synthwave',
+    ],
+    base: true,
+    utils: true,
+    logs: true,
+    rtl: false,
+  },
 }

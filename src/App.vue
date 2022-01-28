@@ -1,10 +1,10 @@
 <template>
-  <BlockLayout/>
+  <BlockLayout />
 </template>
 
 <script>
-import BlockLayout from "./layouts/BlockLayout.vue";
+import BlockLayout from "./layouts/BlockLayout";
 export default {
-    components: { BlockLayout }
+  components: { BlockLayout }
 }
 </script>
